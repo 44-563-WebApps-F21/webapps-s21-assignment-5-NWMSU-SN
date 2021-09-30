@@ -14,10 +14,26 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <style>
+      .label {
+          color: white;
+          padding: 8px;
+          font-family: Arial;
+      }
+
+      .success {
+          background-color: brown;
+      }
+
+     
+  </style>
+
+
 
 </head>
 
 <body>
+  <div class="container">
   <h2>Animals by Santhosh Naini</h2>
 
   <div class="container">
@@ -103,7 +119,28 @@
     </tbody>
   </table>
 
+  <span class="label success" style="font-size: 1rem;">Buttons & Button group</span>
+  <br>
+  <br>
 
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with Button Groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-success">N</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">I</button>
+    </div>
+    <br>
+    <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-warning">S</button>
+        <button type="button" class="btn btn-warning">T</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-danger">O</button>
+    </div>
+</div>
+
+<br>  
+  </div>
 </body>
 
 </html>
